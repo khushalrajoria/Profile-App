@@ -1,6 +1,6 @@
 # khushal
 
-A new Flutter project.
+This is a flutter app that basically contains my CV.
 
 ## Getting Started
 
