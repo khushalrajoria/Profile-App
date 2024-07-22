@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045687978507",
+    "project_id": "cvpro-d52a7",
+    "storage_bucket": "cvpro-d52a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045687978507:android:e01692d1b7830e73a0550e",
+        "android_client_info": {
+          "package_name": "com.example.khushal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3gjgTkDUPDHiINkQp0-07htywxPxv6Js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
