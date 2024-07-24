@@ -75,7 +75,6 @@ Widget _itemWidget(context,inde,List<Color>colo,List<String>titl,List<String>ima
     return  Expanded(
                 flex: 1,
                   child: InkWell(
-                    // borderRadius: BorderRadius.circular(17),
                     onTap: (){
                       show=true;
                       showModalBottomSheet<void>(

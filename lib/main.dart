@@ -1,5 +1,5 @@
-// import 'package:firebase_core/firebase_core.dart';
-// import 'package:firebase_database/firebase_database.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterprofile/pages/contact_page.dart';
 import 'package:flutterprofile/pages/experience_page.dart';
@@ -9,12 +9,11 @@ import 'package:flutterprofile/pages/team_page.dart';
 import 'package:flutterprofile/utils/AppColors.dart';
 import 'package:flutterprofile/utils/AppIcons.dart';
 import 'package:full_screen_image/full_screen_image.dart';
-// import 'pages/Portfolio_page2.dart';
 import 'widgets/navigation_menu_widget.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 void main() async {
-  // WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp();
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 bool mode=false;
